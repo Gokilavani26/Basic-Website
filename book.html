@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <!--Heading-->
+    <head>
+        <title>ROOM RESERVATION FORM</title>
+        <style>
+           body
+           {
+            background-color: darksalmon;
+           }
+           form
+           {
+            text-decoration: dashed;
+            margin-left: 480px;
+            text-align: left;
+           }
+        </style>
+    </head>
+
+    <!--Body-->
+    <body>
+        <h1><center>ROOM RESERVATION FORM</center></h1>
+        <form>
+            <!--Label-->
+           <label><h3>Please fill all the field without fail. </h3></label><br><br>
+           <!--Textbox-->
+           Name:  <input type="text" id="name"value=""placeholder="Enter name..."><br><br>
+           Age:  <input type="number" id="name"value="" size="4"><br><br>
+           Email:  <input type="text" id="name" value="" placeholder="name@domain.com"><br><br>
+           Phone Number:  <input type="text" id="name"value=""><br><br>
+           No.Of.Rooms:<input type="number" max="5" min="1"><br><br>
+           <!--Text Area-->
+           Address:<br><br>
+           <textarea id="address" name="address" rows="6" cols="50" placeholder="Enter address here..."></textarea><br><br>
+          </br>
+            Date: <br>
+            <input type="date">
+           <!--Check box-->
+            <br><br>
+            Other Aminities:<br>
+           <input type="checkbox" id="Attach" name="fav_language" value="Attach" checked="checked">
+            <label> Swimming Pool</label>
+            <input type="checkbox" id="Heater" name="fav_language" value="Heater">
+            <label> Gym</label>
+            <input type="checkbox" id="ac" name="fav_language" value="ac">
+            <label> Parking</label>
+           <br><br>
+            <!--Option-->
+            Food Preferred: 
+            <select id="food" name="food">
+                <option value="veg">Veg</option>
+                <option value="non-veg">Non-Veg</option>
+              </select>
+            <br><br>
+
+            <!--Button-->
+            <button type="button">SUBMIT</button><button type="button">clear</button>
+
+        </form>
+    </body>
+</html>
